@@ -7,6 +7,6 @@ drone = Tello()
 drone.connect()
 drone.takeoff()
 
-drone.flip_forward(self)
+drone.flip('f')
 
 drone.land()
